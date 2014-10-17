@@ -109,9 +109,9 @@ cert_key = @certdir@/mycert.key
 ; public network. When configuring the public IP or the STUN
 ; configuration, remember to uncomment the [nat] categoty line as well!
 [nat]
-;public_ip = 1.2.3.4
-;stun_server = stun.voip.eutelia.it
-;stun_port = 3478
+public_ip = 54.169.4.159
+stun_server = stun.l.google.com
+stun_port = 19302
 
 ; You can also choose which interfaces or IP addresses should be excluded
 ; and ignored by the gateway for the purpose of ICE candidates gathering.
